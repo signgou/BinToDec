@@ -9,16 +9,16 @@
 <script setup>
   import Show from './components/Show.vue';
   import IuputBin from './components/InputBin.vue'
-  import {ref} from 'vue'
 </script>
 <style>
   .wrapper{
-    width: 40rem;
+    width: 100%;
     height: 20rem;
-    margin: 0 auto;
+    margin: 5rem auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow: column wrap;
     align-content: center;
+    gap:1rem;
   }
 </style>
