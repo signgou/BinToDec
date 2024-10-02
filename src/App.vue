@@ -16,9 +16,8 @@
     height: 20rem;
     margin: 5rem auto;
     display: flex;
-    justify-content: space-around;
+    gap: 1rem;
     flex-flow: column wrap;
     align-content: center;
-    gap:1rem;
   }
 </style>

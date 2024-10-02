@@ -15,13 +15,15 @@ import { storeToRefs } from 'pinia';
 
 <style lang="less" scoped>
 .show{
-  height: 10rem;
+  height: 5rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: 1rem;
+  transition: all 1s;
   @media screen and (min-width : 1200px) {
     font-size: 2rem;
+    height: 10rem;
   }
 }
 </style>
